@@ -12,7 +12,38 @@ public record MapleBlockSetType(String name, BlockSoundGroup soundType, SoundEve
     private static final Set<net.minecraft.block.BlockSetType> VALUES = new ObjectArraySet<net.minecraft.block.BlockSetType>();
     public static final BlockSetType MAPLE = register(new BlockSetType("maple"));
     public static final BlockSetType GINKGO = register(new BlockSetType("ginkgo"));
-
+    public static final BlockSetType WHITE_STAINED_GLASS = register(new BlockSetType("white_stained_glass"));
+    public static final BlockSetType ORANGE_STAINED_GLASS = register(new BlockSetType("orange_stained_glass"));
+    public static final BlockSetType MAGENTA_STAINED_GLASS = register(new BlockSetType("magenta_stained_glass"));
+    public static final BlockSetType LIGHT_BLUE_STAINED_GLASS = register(new BlockSetType("light_blue_stained_glass"));
+    public static final BlockSetType YELLOW_STAINED_GLASS = register(new BlockSetType("yellow_stained_glass"));
+    public static final BlockSetType LIME_STAINED_GLASS = register(new BlockSetType("lime_stained_glass"));
+    public static final BlockSetType PINK_STAINED_GLASS = register(new BlockSetType("pink_stained_glass"));
+    public static final BlockSetType GRAY_STAINED_GLASS = register(new BlockSetType("gray_stained_glass"));
+    public static final BlockSetType LIGHT_GRAY_STAINED_GLASS = register(new BlockSetType("light_gray_stained_glass"));
+    public static final BlockSetType CYAN_STAINED_GLASS = register(new BlockSetType("cyan_stained_glass"));
+    public static final BlockSetType PURPLE_STAINED_GLASS = register(new BlockSetType("purple_stained_glass"));
+    public static final BlockSetType BLUE_STAINED_GLASS = register(new BlockSetType("blue_stained_glass"));
+    public static final BlockSetType BROWN_STAINED_GLASS = register(new BlockSetType("brown_stained_glass"));
+    public static final BlockSetType GREEN_STAINED_GLASS = register(new BlockSetType("green_stained_glass"));
+    public static final BlockSetType RED_STAINED_GLASS = register(new BlockSetType("red_stained_glass"));
+    public static final BlockSetType BLACK_STAINED_GLASS = register(new BlockSetType("black_stained_glass"));
+    public static final BlockSetType WHITE_CONCRETE = register(new BlockSetType("white_concrete"));
+    public static final BlockSetType ORANGE_CONCRETE = register(new BlockSetType("orange_concrete"));
+    public static final BlockSetType MAGENTA_CONCRETE = register(new BlockSetType("magenta_concrete"));
+    public static final BlockSetType LIGHT_BLUE_CONCRETE = register(new BlockSetType("light_blue_concrete"));
+    public static final BlockSetType YELLOW_CONCRETE = register(new BlockSetType("yellow_concrete"));
+    public static final BlockSetType LIME_CONCRETE = register(new BlockSetType("lime_concrete"));
+    public static final BlockSetType PINK_CONCRETE = register(new BlockSetType("pink_concrete"));
+    public static final BlockSetType GRAY_CONCRETE = register(new BlockSetType("gray_concrete"));
+    public static final BlockSetType LIGHT_GRAY_CONCRETE = register(new BlockSetType("light_gray_concrete"));
+    public static final BlockSetType CYAN_CONCRETE = register(new BlockSetType("cyan_concrete"));
+    public static final BlockSetType PURPLE_CONCRETE = register(new BlockSetType("purple_concrete"));
+    public static final BlockSetType BLUE_CONCRETE = register(new BlockSetType("blue_concrete"));
+    public static final BlockSetType BROWN_CONCRETE = register(new BlockSetType("brown_concrete"));
+    public static final BlockSetType GREEN_CONCRETE = register(new BlockSetType("green_concrete"));
+    public static final BlockSetType RED_CONCRETE = register(new BlockSetType("red_concrete"));
+    public static final BlockSetType BLACK_CONCRETE = register(new BlockSetType("black_concrete"));
 
     public MapleBlockSetType(String name) {
         this(name, BlockSoundGroup.WOOD, SoundEvents.BLOCK_WOODEN_DOOR_CLOSE, SoundEvents.BLOCK_WOODEN_DOOR_OPEN, SoundEvents.BLOCK_WOODEN_TRAPDOOR_CLOSE, SoundEvents.BLOCK_WOODEN_TRAPDOOR_OPEN, SoundEvents.BLOCK_WOODEN_PRESSURE_PLATE_CLICK_OFF, SoundEvents.BLOCK_WOODEN_PRESSURE_PLATE_CLICK_ON, SoundEvents.BLOCK_WOODEN_BUTTON_CLICK_OFF, SoundEvents.BLOCK_WOODEN_BUTTON_CLICK_ON);

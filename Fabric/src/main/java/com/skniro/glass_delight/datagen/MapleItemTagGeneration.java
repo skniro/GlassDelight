@@ -29,45 +29,41 @@ public class MapleItemTagGeneration extends FabricTagProvider<Item> {
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup arg) {
-        /*getOrCreateTagBuilder(SAPLINGS)
-                .add(Item.fromBlock(MapleBlocks.MAPLE_SAPLING))
-                .add(Item.fromBlock(MapleBlocks.CHERRY_SAPLING))
-                .add(Item.fromBlock(MapleBlocks.GINKGO_SAPLING))
-                .add(Item.fromBlock(MapleBlocks.SAKURA_SAPLING))
-                .add(Item.fromBlock(MapleBlocks.RED_MAPLE_SAPLING))
+        getOrCreateTagBuilder(FENCES)
+                .add(Item.fromBlock(MapleBlocks.WHITE_STAINED_GLASS_FENCE))
+                .add(Item.fromBlock(MapleBlocks.ORANGE_STAINED_GLASS_FENCE))
+                .add(Item.fromBlock(MapleBlocks.MAGENTA_STAINED_GLASS_FENCE))
+                .add(Item.fromBlock(MapleBlocks.LIGHT_BLUE_STAINED_GLASS_FENCE))
+                .add(Item.fromBlock(MapleBlocks.YELLOW_STAINED_GLASS_FENCE))
+                .add(Item.fromBlock(MapleBlocks.LIME_STAINED_GLASS_FENCE))
+                .add(Item.fromBlock(MapleBlocks.PINK_STAINED_GLASS_FENCE))
+                .add(Item.fromBlock(MapleBlocks.GRAY_STAINED_GLASS_FENCE))
+                .add(Item.fromBlock(MapleBlocks.LIGHT_GRAY_STAINED_GLASS_FENCE))
+                .add(Item.fromBlock(MapleBlocks.CYAN_STAINED_GLASS_FENCE))
+                .add(Item.fromBlock(MapleBlocks.PURPLE_STAINED_GLASS_FENCE))
+                .add(Item.fromBlock(MapleBlocks.BLUE_STAINED_GLASS_FENCE))
+                .add(Item.fromBlock(MapleBlocks.BROWN_STAINED_GLASS_FENCE))
+                .add(Item.fromBlock(MapleBlocks.GREEN_STAINED_GLASS_FENCE))
+                .add(Item.fromBlock(MapleBlocks.RED_STAINED_GLASS_FENCE))
+                .add(Item.fromBlock(MapleBlocks.BLACK_STAINED_GLASS_FENCE))
+                .add(Item.fromBlock(MapleBlocks.WHITE_CONCRETE_FENCE))
+                .add(Item.fromBlock(MapleBlocks.ORANGE_CONCRETE_FENCE))
+                .add(Item.fromBlock(MapleBlocks.MAGENTA_CONCRETE_FENCE))
+                .add(Item.fromBlock(MapleBlocks.LIGHT_BLUE_CONCRETE_FENCE))
+                .add(Item.fromBlock(MapleBlocks.YELLOW_CONCRETE_FENCE))
+                .add(Item.fromBlock(MapleBlocks.LIME_CONCRETE_FENCE))
+                .add(Item.fromBlock(MapleBlocks.PINK_CONCRETE_FENCE))
+                .add(Item.fromBlock(MapleBlocks.GRAY_CONCRETE_FENCE))
+                .add(Item.fromBlock(MapleBlocks.LIGHT_GRAY_CONCRETE_FENCE))
+                .add(Item.fromBlock(MapleBlocks.CYAN_CONCRETE_FENCE))
+                .add(Item.fromBlock(MapleBlocks.PURPLE_CONCRETE_FENCE))
+                .add(Item.fromBlock(MapleBlocks.BLUE_CONCRETE_FENCE))
+                .add(Item.fromBlock(MapleBlocks.BROWN_CONCRETE_FENCE))
+                .add(Item.fromBlock(MapleBlocks.GREEN_CONCRETE_FENCE))
+                .add(Item.fromBlock(MapleBlocks.RED_CONCRETE_FENCE))
+                .add(Item.fromBlock(MapleBlocks.BLACK_CONCRETE_FENCE))
                 .setReplace(false);
-        getOrCreateTagBuilder(C_CHERRY_LOGS)
-                .add(Item.fromBlock(MapleBlocks.CHERRY_LOG));
-        getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
-                .add(MapleArmorItems.Cherry_HELMET, MapleArmorItems.Cherry_CHESTPLATE, MapleArmorItems.Cherry_LEGGINGS, MapleArmorItems.Cherry_BOOTS)
-                .setReplace(false);
-        getOrCreateTagBuilder(FOOT_ARMOR)
-                .add(MapleArmorItems.Cherry_BOOTS)
-                .setReplace(false);
-        getOrCreateTagBuilder(LEG_ARMOR)
-                .add(MapleArmorItems.Cherry_LEGGINGS)
-                .setReplace(false);
-        getOrCreateTagBuilder(CHEST_ARMOR)
-                .add(MapleArmorItems.Cherry_CHESTPLATE)
-                .setReplace(false);
-        getOrCreateTagBuilder(HEAD_ARMOR)
-                .add(MapleArmorItems.Cherry_HELMET)
-                .setReplace(false);
-        getOrCreateTagBuilder(SWORDS)
-                .add(MapleArmorItems.Cherry_SWORD)
-                .setReplace(false);
-        getOrCreateTagBuilder(AXES)
-                .add(MapleArmorItems.Cherry_AXE)
-                .setReplace(false);
-        getOrCreateTagBuilder(HOES)
-                .add(MapleArmorItems.Cherry_HOE)
-                .setReplace(false);
-        getOrCreateTagBuilder(PICKAXES)
-                .add(MapleArmorItems.Cherry_PICKAXE)
-                .setReplace(false);
-        getOrCreateTagBuilder(SHOVELS)
-                .add(MapleArmorItems.Cherry_SHOVEL)
-                .setReplace(false);*/
+
     }
 
 

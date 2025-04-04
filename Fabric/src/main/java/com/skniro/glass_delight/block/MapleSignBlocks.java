@@ -1,7 +1,6 @@
 package com.skniro.glass_delight.block;
 
 import com.skniro.glass_delight.GlassDelight;
-import com.skniro.glass_delight.block.entity.MapleSignTypes;
 import net.minecraft.block.*;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.registry.Registries;

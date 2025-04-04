@@ -12,6 +12,7 @@ public class MapleDataGeneration implements DataGeneratorEntrypoint {
         pack.addProvider(MapleModelProvider::new);
         pack.addProvider(MapleSimplifiedChineseLanguageProvider::new);
         pack.addProvider(MapleEnglishLanguageProvider::new);
+        pack.addProvider(MapleRecipeGeneration::new);
         pack.addProvider(MapleItemTagGeneration::new);
         pack.addProvider(MapleBlockTagGeneration::new);
         pack.addProvider(MapleLootTableGenerator::new);
