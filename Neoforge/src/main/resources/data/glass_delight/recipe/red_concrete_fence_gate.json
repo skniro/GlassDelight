@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:red_concrete"
+    },
+    "P": {
+      "item": "minecraft:red_concrete_powder"
+    }
+  },
+  "pattern": [
+    "P#P",
+    "P#P"
+  ],
+  "result": {
+    "count": 1,
+    "id": "glass_delight:red_concrete_fence_gate"
+  }
+}

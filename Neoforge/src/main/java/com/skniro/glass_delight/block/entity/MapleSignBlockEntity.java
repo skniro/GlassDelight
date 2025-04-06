@@ -10,8 +10,8 @@ public class MapleSignBlockEntity extends SignBlockEntity {
         super(pWorldPosition, pBlockState);
     }
 
-    @Override
+/*    @Override
     public BlockEntityType<?> getType() {
         return MapleBlockEntities.SIGN_BLOCK_ENTITIES.get();
-    }
+    }*/
 }

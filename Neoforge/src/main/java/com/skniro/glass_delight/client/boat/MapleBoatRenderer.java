@@ -2,7 +2,7 @@ package com.skniro.glass_delight.client.boat;
 
 import com.google.common.collect.ImmutableMap;
 import com.mojang.datafixers.util.Pair;
-import com.skniro.glass_delight.Maple;
+import com.skniro.glass_delight.GlassDelight;
 import com.skniro.glass_delight.entity.custom.MapleBoatEntity;
 import com.skniro.glass_delight.entity.custom.MapleChestBoatEntity;
 import net.minecraft.client.model.BoatModel;
@@ -22,7 +22,7 @@ public class MapleBoatRenderer extends BoatRenderer {
     public MapleBoatRenderer(EntityRendererProvider.Context pContext, boolean pChestBoat) {
         super(pContext, pChestBoat);
         this.boatResources = Stream.of(MapleBoatEntity.Type.values()).collect(ImmutableMap.toImmutableMap(type -> type,
-                type -> Pair.of(ResourceLocation.fromNamespaceAndPath(Maple.MODID, getTextureLocation(type, pChestBoat)), this.createBoatModel(pContext, type, pChestBoat))));
+                type -> Pair.of(ResourceLocation.fromNamespaceAndPath(GlassDelight.MODID, getTextureLocation(type, pChestBoat)), this.createBoatModel(pContext, type, pChestBoat))));
     }
     private static String getTextureLocation(MapleBoatEntity.Type pType, boolean pChestBoat) {
         return pChestBoat ? "textures/entity/chest_boat/" + pType.getName() + ".png" : "textures/entity/boat/" + pType.getName() + ".png";
@@ -39,7 +39,7 @@ public class MapleBoatRenderer extends BoatRenderer {
         return createLocation("chest_boat/" + pType.getName(), "main");
     }
     private static ModelLayerLocation createLocation(String pPath, String pModel) {
-        return new ModelLayerLocation(ResourceLocation.fromNamespaceAndPath(Maple.MODID, pPath), pModel);
+        return new ModelLayerLocation(ResourceLocation.fromNamespaceAndPath(GlassDelight.MODID, pPath), pModel);
     }
     public Pair<ResourceLocation, ListModel<Boat>> getModelWithLocation(Boat boat) {
         if(boat instanceof MapleBoatEntity modBoat) {

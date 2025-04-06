@@ -3,7 +3,7 @@
   "minVersion": "0.8",
   "package": "com.skniro.glass_delight.mixin",
   "compatibilityLevel": "JAVA_21",
-  "refmap": "maple.refmap.json",
+  "refmap": "glass_delight.refmap.json",
   "mixins": [
   ],
   "client": [

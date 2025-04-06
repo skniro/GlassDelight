@@ -11,8 +11,8 @@ public class MapleWallHangingSignBlock extends WallHangingSignBlock {
     public MapleWallHangingSignBlock(Properties pProperties, WoodType pType) {
         super(pType, pProperties);
     }
-    @Override
+/*    @Override
     public BlockEntity newBlockEntity(BlockPos pPos, BlockState pState) {
         return new MapleHangingSignBlockEntity(pPos, pState);
-    }
+    }*/
 }

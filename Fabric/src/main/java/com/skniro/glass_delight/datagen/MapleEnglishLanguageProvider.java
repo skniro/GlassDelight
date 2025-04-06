@@ -23,6 +23,13 @@ public class MapleEnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(GlassDelight.Maple_Group,"GlassDelight");
 
         //Glass
+        translationBuilder.add(MapleBlocks.GLASS_STAIRS, "Glass Stairs");
+        translationBuilder.add(MapleBlocks.GLASS_SLAB, "Glass Slab");
+        translationBuilder.add(MapleBlocks.GLASS_FENCE, "Glass Fence");
+        translationBuilder.add(MapleBlocks.GLASS_FENCE_GATE, "Glass Fence Gate");
+        translationBuilder.add(MapleBlocks.GLASS_PRESSURE_PLATE, "Glass Pressure Plate");
+        translationBuilder.add(MapleBlocks.GLASS_BUTTON, "Glass Button");
+
         translationBuilder.add(MapleBlocks.WHITE_STAINED_GLASS_STAIRS, "White Stained Glass Stairs");
         translationBuilder.add(MapleBlocks.WHITE_STAINED_GLASS_SLAB, "White Stained Glass Slab");
         translationBuilder.add(MapleBlocks.WHITE_STAINED_GLASS_FENCE, "White Stained Glass Fence");
@@ -134,9 +141,6 @@ public class MapleEnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(MapleBlocks.BLACK_STAINED_GLASS_FENCE_GATE, "Black Stained Glass Fence Gate");
         translationBuilder.add(MapleBlocks.BLACK_STAINED_GLASS_PRESSURE_PLATE, "Black Stained Glass Pressure Plate");
         translationBuilder.add(MapleBlocks.BLACK_STAINED_GLASS_BUTTON, "Black Stained Glass Button");
-
-        translationBuilder.add(MapleBlocks.GLASS_SLAB,"Glass Slab");
-        translationBuilder.add(MapleBlocks.GLASS_STAIRS,"Glass Stairs");
 
         //Concrete
         translationBuilder.add(MapleBlocks.WHITE_CONCRETE_STAIRS, "White Concrete Stairs");
@@ -250,6 +254,41 @@ public class MapleEnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(MapleBlocks.BLACK_CONCRETE_FENCE_GATE, "Black Concrete Fence Gate");
         translationBuilder.add(MapleBlocks.BLACK_CONCRETE_PRESSURE_PLATE, "Black Concrete Pressure Plate");
         translationBuilder.add(MapleBlocks.BLACK_CONCRETE_BUTTON, "Black Concrete Button");
+
+        translationBuilder.add(MapleBlocks.WHITE_CONCRETE_WALL, "White Concrete Wall");
+        translationBuilder.add(MapleBlocks.ORANGE_CONCRETE_WALL, "Orange Concrete Wall");
+        translationBuilder.add(MapleBlocks.MAGENTA_CONCRETE_WALL, "Magenta Concrete Wall");
+        translationBuilder.add(MapleBlocks.LIGHT_BLUE_CONCRETE_WALL, "Light Blue Concrete Wall");
+        translationBuilder.add(MapleBlocks.YELLOW_CONCRETE_WALL, "Yellow Concrete Wall");
+        translationBuilder.add(MapleBlocks.LIME_CONCRETE_WALL, "Lime Concrete Wall");
+        translationBuilder.add(MapleBlocks.PINK_CONCRETE_WALL, "Pink Concrete Wall");
+        translationBuilder.add(MapleBlocks.GRAY_CONCRETE_WALL, "Gray Concrete Wall");
+        translationBuilder.add(MapleBlocks.LIGHT_GRAY_CONCRETE_WALL, "Light Gray Concrete Wall");
+        translationBuilder.add(MapleBlocks.CYAN_CONCRETE_WALL, "Cyan Concrete Wall");
+        translationBuilder.add(MapleBlocks.PURPLE_CONCRETE_WALL, "Purple Concrete Wall");
+        translationBuilder.add(MapleBlocks.BLUE_CONCRETE_WALL, "Blue Concrete Wall");
+        translationBuilder.add(MapleBlocks.BROWN_CONCRETE_WALL, "Brown Concrete Wall");
+        translationBuilder.add(MapleBlocks.GREEN_CONCRETE_WALL, "Green Concrete Wall");
+        translationBuilder.add(MapleBlocks.RED_CONCRETE_WALL, "Red Concrete Wall");
+        translationBuilder.add(MapleBlocks.BLACK_CONCRETE_WALL, "Black Concrete Wall");
+
+        translationBuilder.add(MapleBlocks.WHITE_STAINED_GLASS_WALL, "White Stained Glass Wall");
+        translationBuilder.add(MapleBlocks.ORANGE_STAINED_GLASS_WALL, "Orange Stained Glass Wall");
+        translationBuilder.add(MapleBlocks.MAGENTA_STAINED_GLASS_WALL, "Magenta Stained Glass Wall");
+        translationBuilder.add(MapleBlocks.LIGHT_BLUE_STAINED_GLASS_WALL, "Light Blue Stained Glass Wall");
+        translationBuilder.add(MapleBlocks.YELLOW_STAINED_GLASS_WALL, "Yellow Stained Glass Wall");
+        translationBuilder.add(MapleBlocks.LIME_STAINED_GLASS_WALL, "Lime Stained Glass Wall");
+        translationBuilder.add(MapleBlocks.PINK_STAINED_GLASS_WALL, "Pink Stained Glass Wall");
+        translationBuilder.add(MapleBlocks.GRAY_STAINED_GLASS_WALL, "Gray Stained Glass Wall");
+        translationBuilder.add(MapleBlocks.LIGHT_GRAY_STAINED_GLASS_WALL, "Light Gray Stained Glass Wall");
+        translationBuilder.add(MapleBlocks.CYAN_STAINED_GLASS_WALL, "Cyan Stained Glass Wall");
+        translationBuilder.add(MapleBlocks.PURPLE_STAINED_GLASS_WALL, "Purple Stained Glass Wall");
+        translationBuilder.add(MapleBlocks.BLUE_STAINED_GLASS_WALL, "Blue Stained Glass Wall");
+        translationBuilder.add(MapleBlocks.BROWN_STAINED_GLASS_WALL, "Brown Stained Glass Wall");
+        translationBuilder.add(MapleBlocks.GREEN_STAINED_GLASS_WALL, "Green Stained Glass Wall");
+        translationBuilder.add(MapleBlocks.RED_STAINED_GLASS_WALL, "Red Stained Glass Wall");
+        translationBuilder.add(MapleBlocks.BLACK_STAINED_GLASS_WALL, "Black Stained Glass Wall");
+
 
 
         try {

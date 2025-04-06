@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:orange_concrete"
+    },
+    "P": {
+      "item": "minecraft:orange_concrete_powder"
+    }
+  },
+  "pattern": [
+    "P#P",
+    "P#P"
+  ],
+  "result": {
+    "count": 1,
+    "id": "glass_delight:orange_concrete_fence_gate"
+  }
+}

@@ -10,8 +10,8 @@ public class MapleHangingSignBlock extends CeilingHangingSignBlock {
     public MapleHangingSignBlock(Properties pProperties, WoodType pType) {
         super(pType, pProperties);
     }
-    @Override
+/*    @Override
     public BlockEntity newBlockEntity(BlockPos pPos, BlockState pState) {
         return new MapleHangingSignBlockEntity(pPos, pState);
-    }
+    }*/
 }

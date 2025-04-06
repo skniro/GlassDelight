@@ -351,6 +351,8 @@ public class MapleBlocks {
 
 
     //Button
+    public static final Block GLASS_BUTTON = registerBlock("glass_button",
+            Blocks.createWoodenButtonBlock(MapleBlockSetType.GLASS), GlassDelight.Maple_Group);
     public static final Block WHITE_STAINED_GLASS_BUTTON = registerBlock("white_stained_glass_button",
             Blocks.createWoodenButtonBlock(MapleBlockSetType.WHITE_STAINED_GLASS), GlassDelight.Maple_Group);
     public static final Block ORANGE_STAINED_GLASS_BUTTON = registerBlock("orange_stained_glass_button",
@@ -419,6 +421,8 @@ public class MapleBlocks {
 
 
     //Pressure Plate
+    public static final Block GLASS_PRESSURE_PLATE = registerBlock("glass_pressure_plate",
+            new PressurePlateBlock(MapleBlockSetType.GLASS, AbstractBlock.Settings.create().mapColor(Blocks.WHITE_STAINED_GLASS.getDefaultMapColor()).noCollision().strength(0.5F).burnable().instrument(NoteBlockInstrument.BASS).pistonBehavior(PistonBehavior.DESTROY)), GlassDelight.Maple_Group);
     public static final Block WHITE_STAINED_GLASS_PRESSURE_PLATE = registerBlock("white_stained_glass_pressure_plate",
             new PressurePlateBlock(MapleBlockSetType.WHITE_STAINED_GLASS, AbstractBlock.Settings.create().mapColor(Blocks.WHITE_STAINED_GLASS.getDefaultMapColor()).noCollision().strength(0.5F).burnable().instrument(NoteBlockInstrument.BASS).pistonBehavior(PistonBehavior.DESTROY)), GlassDelight.Maple_Group);
     public static final Block ORANGE_STAINED_GLASS_PRESSURE_PLATE = registerBlock("orange_stained_glass_pressure_plate",
@@ -502,6 +506,8 @@ public class MapleBlocks {
             new PressurePlateBlock(MapleBlockSetType.BLACK_CONCRETE, AbstractBlock.Settings.copy(WHITE_CONCRETE_PRESSURE_PLATE)), GlassDelight.Maple_Group);
 
     //Wall
+    public static final Block GLASS_WALL = registerBlock("glass_wall",
+            new WallBlock(AbstractBlock.Settings.copyShallow(Blocks.GLASS).solid()), GlassDelight.Maple_Group);
     public static final Block WHITE_STAINED_GLASS_WALL = registerBlock("white_stained_glass_wall",
             new WallBlock(AbstractBlock.Settings.copyShallow(Blocks.WHITE_STAINED_GLASS).solid()), GlassDelight.Maple_Group);
     public static final Block ORANGE_STAINED_GLASS_WALL = registerBlock("orange_stained_glass_wall",

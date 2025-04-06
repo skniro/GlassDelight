@@ -23,6 +23,13 @@ public class MapleLootTableGenerator extends FabricBlockLootTableProvider {
 
     @Override
     public void generate() {
+        addDropWithSilkTouch(MapleBlocks.GLASS_STAIRS);
+        addDropWithSilkTouch(MapleBlocks.GLASS_SLAB);
+        addDropWithSilkTouch(MapleBlocks.GLASS_WALL);
+        addDropWithSilkTouch(MapleBlocks.GLASS_PRESSURE_PLATE);
+        addDropWithSilkTouch(MapleBlocks.GLASS_BUTTON);
+        addDropWithSilkTouch(MapleBlocks.GLASS_FENCE);
+        addDropWithSilkTouch(MapleBlocks.GLASS_FENCE_GATE);
         addDropWithSilkTouch(MapleBlocks.WHITE_STAINED_GLASS_STAIRS);
         addDropWithSilkTouch(MapleBlocks.WHITE_STAINED_GLASS_SLAB);
         addDropWithSilkTouch(MapleBlocks.WHITE_STAINED_GLASS_WALL);

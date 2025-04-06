@@ -6,7 +6,7 @@ import net.minecraft.block.WoodType;
 
 public class MapleWoodTypes {
     public static final WoodType GLASS =
-            SignTypeAccessor.registerNew(SignTypeAccessor.newSignType("maple_glass", MapleBlockSetType.GINKGO));
+            SignTypeAccessor.registerNew(SignTypeAccessor.newSignType("maple_glass", MapleBlockSetType.GLASS));
     public static final WoodType WHITE_STAINED_GLASS =
             SignTypeAccessor.registerNew(SignTypeAccessor.newSignType("white_stained_glass", MapleBlockSetType.WHITE_STAINED_GLASS));
     public static final WoodType ORANGE_STAINED_GLASS =

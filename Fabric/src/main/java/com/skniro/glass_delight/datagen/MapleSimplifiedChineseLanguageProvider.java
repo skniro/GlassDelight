@@ -19,6 +19,12 @@ public class MapleSimplifiedChineseLanguageProvider extends FabricLanguageProvid
         translationBuilder.add(GlassDelight.Maple_Group,"玻璃乐事");
 
         //Glass
+        translationBuilder.add(MapleBlocks.GLASS_STAIRS,"玻璃楼梯");
+        translationBuilder.add(MapleBlocks.GLASS_SLAB,"玻璃台阶");
+        translationBuilder.add(MapleBlocks.GLASS_FENCE, "玻璃栅栏");
+        translationBuilder.add(MapleBlocks.GLASS_FENCE_GATE, "玻璃栅栏门");
+        translationBuilder.add(MapleBlocks.GLASS_PRESSURE_PLATE, "玻璃压力板");
+        translationBuilder.add(MapleBlocks.GLASS_BUTTON, "玻璃按钮");
         translationBuilder.add(MapleBlocks.WHITE_STAINED_GLASS_STAIRS,"白色染色玻璃楼梯");
         translationBuilder.add(MapleBlocks.WHITE_STAINED_GLASS_SLAB,"白色染色玻璃台阶");
         translationBuilder.add(MapleBlocks.WHITE_STAINED_GLASS_FENCE, "白色染色玻璃栅栏");
@@ -115,8 +121,7 @@ public class MapleSimplifiedChineseLanguageProvider extends FabricLanguageProvid
         translationBuilder.add(MapleBlocks.BLACK_STAINED_GLASS_FENCE_GATE, "黑色染色玻璃栅栏门");
         translationBuilder.add(MapleBlocks.BLACK_STAINED_GLASS_PRESSURE_PLATE, "黑色染色玻璃压力板");
         translationBuilder.add(MapleBlocks.BLACK_STAINED_GLASS_BUTTON, "黑色染色玻璃按钮");
-        translationBuilder.add(MapleBlocks.GLASS_SLAB,"玻璃台阶");
-        translationBuilder.add(MapleBlocks.GLASS_STAIRS,"玻璃楼梯");
+
 
         //Concrete
         translationBuilder.add(MapleBlocks.WHITE_CONCRETE_STAIRS, "白色混凝土楼梯");
@@ -215,6 +220,41 @@ public class MapleSimplifiedChineseLanguageProvider extends FabricLanguageProvid
         translationBuilder.add(MapleBlocks.BLACK_CONCRETE_FENCE_GATE, "黑色混凝土栅栏门");
         translationBuilder.add(MapleBlocks.BLACK_CONCRETE_PRESSURE_PLATE, "黑色混凝土压力板");
         translationBuilder.add(MapleBlocks.BLACK_CONCRETE_BUTTON, "黑色混凝土按钮");
+
+        translationBuilder.add(MapleBlocks.WHITE_CONCRETE_WALL, "白色混凝土墙");
+        translationBuilder.add(MapleBlocks.ORANGE_CONCRETE_WALL, "橙色混凝土墙");
+        translationBuilder.add(MapleBlocks.MAGENTA_CONCRETE_WALL, "品红色混凝土墙");
+        translationBuilder.add(MapleBlocks.LIGHT_BLUE_CONCRETE_WALL, "浅蓝色混凝土墙");
+        translationBuilder.add(MapleBlocks.YELLOW_CONCRETE_WALL, "黄色混凝土墙");
+        translationBuilder.add(MapleBlocks.LIME_CONCRETE_WALL, "青柠色混凝土墙");
+        translationBuilder.add(MapleBlocks.PINK_CONCRETE_WALL, "粉色混凝土墙");
+        translationBuilder.add(MapleBlocks.GRAY_CONCRETE_WALL, "灰色混凝土墙");
+        translationBuilder.add(MapleBlocks.LIGHT_GRAY_CONCRETE_WALL, "浅灰色混凝土墙");
+        translationBuilder.add(MapleBlocks.CYAN_CONCRETE_WALL, "青色混凝土墙");
+        translationBuilder.add(MapleBlocks.PURPLE_CONCRETE_WALL, "紫色混凝土墙");
+        translationBuilder.add(MapleBlocks.BLUE_CONCRETE_WALL, "蓝色混凝土墙");
+        translationBuilder.add(MapleBlocks.BROWN_CONCRETE_WALL, "棕色混凝土墙");
+        translationBuilder.add(MapleBlocks.GREEN_CONCRETE_WALL, "绿色混凝土墙");
+        translationBuilder.add(MapleBlocks.RED_CONCRETE_WALL, "红色混凝土墙");
+        translationBuilder.add(MapleBlocks.BLACK_CONCRETE_WALL, "黑色混凝土墙");
+
+        translationBuilder.add(MapleBlocks.WHITE_STAINED_GLASS_WALL, "白色染色玻璃墙");
+        translationBuilder.add(MapleBlocks.ORANGE_STAINED_GLASS_WALL, "橙色染色玻璃墙");
+        translationBuilder.add(MapleBlocks.MAGENTA_STAINED_GLASS_WALL, "品红色染色玻璃墙");
+        translationBuilder.add(MapleBlocks.LIGHT_BLUE_STAINED_GLASS_WALL, "浅蓝色染色玻璃墙");
+        translationBuilder.add(MapleBlocks.YELLOW_STAINED_GLASS_WALL, "黄色染色玻璃墙");
+        translationBuilder.add(MapleBlocks.LIME_STAINED_GLASS_WALL, "青柠色染色玻璃墙");
+        translationBuilder.add(MapleBlocks.PINK_STAINED_GLASS_WALL, "粉色染色玻璃墙");
+        translationBuilder.add(MapleBlocks.GRAY_STAINED_GLASS_WALL, "灰色染色玻璃墙");
+        translationBuilder.add(MapleBlocks.LIGHT_GRAY_STAINED_GLASS_WALL, "浅灰色染色玻璃墙");
+        translationBuilder.add(MapleBlocks.CYAN_STAINED_GLASS_WALL, "青色染色玻璃墙");
+        translationBuilder.add(MapleBlocks.PURPLE_STAINED_GLASS_WALL, "紫色染色玻璃墙");
+        translationBuilder.add(MapleBlocks.BLUE_STAINED_GLASS_WALL, "蓝色染色玻璃墙");
+        translationBuilder.add(MapleBlocks.BROWN_STAINED_GLASS_WALL, "棕色染色玻璃墙");
+        translationBuilder.add(MapleBlocks.GREEN_STAINED_GLASS_WALL, "绿色染色玻璃墙");
+        translationBuilder.add(MapleBlocks.RED_STAINED_GLASS_WALL, "红色染色玻璃墙");
+        translationBuilder.add(MapleBlocks.BLACK_STAINED_GLASS_WALL, "黑色染色玻璃墙");
+
 
 
         try {

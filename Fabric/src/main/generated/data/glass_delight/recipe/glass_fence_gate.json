@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:glass"
+    },
+    "P": {
+      "item": "minecraft:glass_pane"
+    }
+  },
+  "pattern": [
+    "P#P",
+    "P#P"
+  ],
+  "result": {
+    "count": 1,
+    "id": "glass_delight:glass_fence_gate"
+  }
+}

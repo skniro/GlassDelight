@@ -14,6 +14,15 @@ public class MapleModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
+        BlockStateModelGenerator.BlockTexturePool glass = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.GLASS);
+        glass.slab(MapleBlocks.GLASS_SLAB);
+        glass.stairs(MapleBlocks.GLASS_STAIRS);
+        glass.pressurePlate(MapleBlocks.GLASS_PRESSURE_PLATE);
+        glass.button(MapleBlocks.GLASS_BUTTON);
+        glass.fence(MapleBlocks.GLASS_FENCE);
+        glass.fenceGate(MapleBlocks.GLASS_FENCE_GATE);
+        glass.wall(MapleBlocks.GLASS_WALL);
+
         BlockStateModelGenerator.BlockTexturePool white = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.WHITE_STAINED_GLASS);
         white.slab(MapleBlocks.WHITE_STAINED_GLASS_SLAB);
         white.stairs(MapleBlocks.WHITE_STAINED_GLASS_STAIRS);
@@ -157,10 +166,6 @@ public class MapleModelProvider extends FabricModelProvider {
         black.fence(MapleBlocks.BLACK_STAINED_GLASS_FENCE);
         black.fenceGate(MapleBlocks.BLACK_STAINED_GLASS_FENCE_GATE);
         black.wall(MapleBlocks.BLACK_STAINED_GLASS_WALL);
-
-        BlockStateModelGenerator.BlockTexturePool glass = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.GLASS);
-        glass.slab(MapleBlocks.GLASS_SLAB);
-        glass.stairs(MapleBlocks.GLASS_STAIRS);
 
         //Concrete
         BlockStateModelGenerator.BlockTexturePool whiteConcrete = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.WHITE_CONCRETE);

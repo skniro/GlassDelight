@@ -10,8 +10,7 @@ import java.util.Set;
 import java.util.stream.Stream;
 public record MapleBlockSetType(String name, BlockSoundGroup soundType, SoundEvent doorClose, SoundEvent doorOpen, SoundEvent trapdoorClose, SoundEvent trapdoorOpen, SoundEvent pressurePlateClickOff, SoundEvent pressurePlateClickOn, SoundEvent buttonClickOff, SoundEvent buttonClickOn) {
     private static final Set<net.minecraft.block.BlockSetType> VALUES = new ObjectArraySet<net.minecraft.block.BlockSetType>();
-    public static final BlockSetType MAPLE = register(new BlockSetType("maple"));
-    public static final BlockSetType GINKGO = register(new BlockSetType("ginkgo"));
+    public static final BlockSetType GLASS = register(new BlockSetType("glass"));
     public static final BlockSetType WHITE_STAINED_GLASS = register(new BlockSetType("white_stained_glass"));
     public static final BlockSetType ORANGE_STAINED_GLASS = register(new BlockSetType("orange_stained_glass"));
     public static final BlockSetType MAGENTA_STAINED_GLASS = register(new BlockSetType("magenta_stained_glass"));

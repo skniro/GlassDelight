@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:blue_concrete"
+    },
+    "P": {
+      "item": "minecraft:blue_concrete_powder"
+    }
+  },
+  "pattern": [
+    "#P#",
+    "#P#"
+  ],
+  "result": {
+    "count": 3,
+    "id": "glass_delight:blue_concrete_fence"
+  }
+}

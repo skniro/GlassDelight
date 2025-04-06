@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "maple:block/sakura_leaves"
-  },
-  "render_type": "cutout"
-}

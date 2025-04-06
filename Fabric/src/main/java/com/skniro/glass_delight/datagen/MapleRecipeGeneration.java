@@ -278,6 +278,13 @@ public class MapleRecipeGeneration extends FabricRecipeProvider {
                         FabricRecipeProvider.conditionsFromItem(Blocks.BLACK_CONCRETE))
                 .offerTo(exporter);
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, MapleBlocks.GLASS_SLAB, 6)
+                .pattern("###")
+                .input('#', Blocks.GLASS)
+                .criterion(FabricRecipeProvider.hasItem(Blocks.GLASS),
+                        FabricRecipeProvider.conditionsFromItem(Blocks.GLASS))
+                .offerTo(exporter);
+
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, MapleBlocks.WHITE_STAINED_GLASS_SLAB, 6)
                 .pattern("###")
                 .input('#', Blocks.WHITE_STAINED_GLASS)
@@ -388,6 +395,15 @@ public class MapleRecipeGeneration extends FabricRecipeProvider {
                 .input('#', Blocks.BLACK_STAINED_GLASS)
                 .criterion(FabricRecipeProvider.hasItem(Blocks.BLACK_STAINED_GLASS),
                         FabricRecipeProvider.conditionsFromItem(Blocks.BLACK_STAINED_GLASS))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, MapleBlocks.GLASS_STAIRS, 4)
+                .pattern("#  ")
+                .pattern("## ")
+                .pattern("###")
+                .input('#', Blocks.GLASS)
+                .criterion(FabricRecipeProvider.hasItem(Blocks.GLASS),
+                        FabricRecipeProvider.conditionsFromItem(Blocks.GLASS))
                 .offerTo(exporter);
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, MapleBlocks.WHITE_STAINED_GLASS_STAIRS, 4)
@@ -535,6 +551,15 @@ public class MapleRecipeGeneration extends FabricRecipeProvider {
                 .offerTo(exporter);
 
         //Fence gate
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, MapleBlocks.GLASS_FENCE_GATE, 1)
+                .pattern("P#P")
+                .pattern("P#P")
+                .input('#', Blocks.GLASS)
+                .input('P', Blocks.GLASS_PANE)
+                .criterion(FabricRecipeProvider.hasItem(Blocks.GLASS),
+                        FabricRecipeProvider.conditionsFromItem(Blocks.GLASS))
+                .offerTo(exporter);
+
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, MapleBlocks.WHITE_STAINED_GLASS_FENCE_GATE, 1)
                 .pattern("P#P")
                 .pattern("P#P")
@@ -650,6 +675,15 @@ public class MapleRecipeGeneration extends FabricRecipeProvider {
                 .input('P', Blocks.BROWN_STAINED_GLASS_PANE)
                 .criterion(FabricRecipeProvider.hasItem(Blocks.BROWN_STAINED_GLASS),
                         FabricRecipeProvider.conditionsFromItem(Blocks.BROWN_STAINED_GLASS))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, MapleBlocks.GLASS_FENCE, 3)
+                .pattern("#P#")
+                .pattern("#P#")
+                .input('#', Blocks.GLASS)
+                .input('P', Blocks.GLASS_PANE)
+                .criterion(FabricRecipeProvider.hasItem(Blocks.GLASS),
+                        FabricRecipeProvider.conditionsFromItem(Blocks.GLASS))
                 .offerTo(exporter);
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, MapleBlocks.WHITE_STAINED_GLASS_FENCE, 3)
@@ -1014,6 +1048,14 @@ public class MapleRecipeGeneration extends FabricRecipeProvider {
                         FabricRecipeProvider.conditionsFromItem(Blocks.BLACK_CONCRETE))
                 .offerTo(exporter);
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, MapleBlocks.GLASS_WALL, 6)
+                .pattern("###")
+                .pattern("###")
+                .input('#', Blocks.GLASS)
+                .criterion(FabricRecipeProvider.hasItem(Blocks.GLASS),
+                        FabricRecipeProvider.conditionsFromItem(Blocks.GLASS))
+                .offerTo(exporter);
+
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, MapleBlocks.WHITE_STAINED_GLASS_WALL, 6)
                 .pattern("###")
                 .pattern("###")
@@ -1140,6 +1182,13 @@ public class MapleRecipeGeneration extends FabricRecipeProvider {
                 .input('#', Blocks.BLACK_STAINED_GLASS)
                 .criterion(FabricRecipeProvider.hasItem(Blocks.BLACK_STAINED_GLASS),
                         FabricRecipeProvider.conditionsFromItem(Blocks.BLACK_STAINED_GLASS))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, MapleBlocks.GLASS_PRESSURE_PLATE, 1)
+                .pattern("##")
+                .input('#', Blocks.GLASS)
+                .criterion(FabricRecipeProvider.hasItem(Blocks.GLASS),
+                        FabricRecipeProvider.conditionsFromItem(Blocks.GLASS))
                 .offerTo(exporter);
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, MapleBlocks.WHITE_STAINED_GLASS_PRESSURE_PLATE, 1)
@@ -1364,6 +1413,13 @@ public class MapleRecipeGeneration extends FabricRecipeProvider {
                 .input('#', Blocks.BLACK_CONCRETE)
                 .criterion(FabricRecipeProvider.hasItem(Blocks.BLACK_CONCRETE),
                         FabricRecipeProvider.conditionsFromItem(Blocks.BLACK_CONCRETE))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, MapleBlocks.GLASS_BUTTON, 1)
+                .pattern("#")
+                .input('#', Blocks.GLASS)
+                .criterion(FabricRecipeProvider.hasItem(Blocks.GLASS),
+                        FabricRecipeProvider.conditionsFromItem(Blocks.GLASS))
                 .offerTo(exporter);
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, MapleBlocks.WHITE_STAINED_GLASS_BUTTON, 1)
@@ -1767,8 +1823,14 @@ public class MapleRecipeGeneration extends FabricRecipeProvider {
                         FabricRecipeProvider.conditionsFromItem(Items.BLACK_CONCRETE_POWDER))
                 .offerTo(exporter);
 
-
-                        StonecuttingRecipeJsonBuilder.createStonecutting(Ingredient.ofItems(Blocks.WHITE_STAINED_GLASS), RecipeCategory.BUILDING_BLOCKS, MapleBlocks.WHITE_STAINED_GLASS_STAIRS, 1) .criterion(FabricRecipeProvider.hasItem(Blocks.WHITE_STAINED_GLASS), FabricRecipeProvider.conditionsFromItem(Blocks.WHITE_STAINED_GLASS)).offerTo(exporter, Identifier.of(GlassDelight.MOD_ID,"cutting/white_stained_glass_stairs"));
+        StonecuttingRecipeJsonBuilder.createStonecutting(Ingredient.ofItems(Blocks.GLASS), RecipeCategory.BUILDING_BLOCKS, MapleBlocks.GLASS_STAIRS, 1) .criterion(FabricRecipeProvider.hasItem(Blocks.GLASS), FabricRecipeProvider.conditionsFromItem(Blocks.GLASS)).offerTo(exporter, Identifier.of(GlassDelight.MOD_ID,"cutting/glass_stairs"));
+        StonecuttingRecipeJsonBuilder.createStonecutting(Ingredient.ofItems(Blocks.GLASS), RecipeCategory.BUILDING_BLOCKS, MapleBlocks.GLASS_SLAB, 2) .criterion(FabricRecipeProvider.hasItem(Blocks.GLASS), FabricRecipeProvider.conditionsFromItem(Blocks.GLASS)).offerTo(exporter, Identifier.of(GlassDelight.MOD_ID, "cutting/glass_slab"));
+        StonecuttingRecipeJsonBuilder.createStonecutting(Ingredient.ofItems(Blocks.GLASS), RecipeCategory.BUILDING_BLOCKS, MapleBlocks.GLASS_WALL, 1) .criterion(FabricRecipeProvider.hasItem(Blocks.GLASS), FabricRecipeProvider.conditionsFromItem(Blocks.GLASS)).offerTo(exporter, Identifier.of(GlassDelight.MOD_ID, "cutting/glass_wall"));
+        StonecuttingRecipeJsonBuilder.createStonecutting(Ingredient.ofItems(Blocks.GLASS), RecipeCategory.BUILDING_BLOCKS, MapleBlocks.WHITE_STAINED_GLASS_PRESSURE_PLATE, 2) .criterion(FabricRecipeProvider.hasItem(Blocks.GLASS), FabricRecipeProvider.conditionsFromItem(Blocks.GLASS)).offerTo(exporter, Identifier.of(GlassDelight.MOD_ID, "cutting/glass_pressure_plate"));
+        StonecuttingRecipeJsonBuilder.createStonecutting(Ingredient.ofItems(Blocks.GLASS), RecipeCategory.BUILDING_BLOCKS, MapleBlocks.GLASS_BUTTON, 2) .criterion(FabricRecipeProvider.hasItem(Blocks.GLASS), FabricRecipeProvider.conditionsFromItem(Blocks.GLASS)).offerTo(exporter, Identifier.of(GlassDelight.MOD_ID, "cutting/glass_button"));
+        StonecuttingRecipeJsonBuilder.createStonecutting(Ingredient.ofItems(Blocks.GLASS), RecipeCategory.BUILDING_BLOCKS, MapleBlocks.GLASS_FENCE, 1) .criterion(FabricRecipeProvider.hasItem(Blocks.GLASS), FabricRecipeProvider.conditionsFromItem(Blocks.GLASS)).offerTo(exporter, Identifier.of(GlassDelight.MOD_ID, "cutting/glass_fence"));
+        StonecuttingRecipeJsonBuilder.createStonecutting(Ingredient.ofItems(Blocks.GLASS), RecipeCategory.BUILDING_BLOCKS, MapleBlocks.GLASS_FENCE_GATE, 1) .criterion(FabricRecipeProvider.hasItem(Blocks.GLASS), FabricRecipeProvider.conditionsFromItem(Blocks.GLASS)).offerTo(exporter, Identifier.of(GlassDelight.MOD_ID, "cutting/glass_fence_gate"));
+        StonecuttingRecipeJsonBuilder.createStonecutting(Ingredient.ofItems(Blocks.WHITE_STAINED_GLASS), RecipeCategory.BUILDING_BLOCKS, MapleBlocks.WHITE_STAINED_GLASS_STAIRS, 1) .criterion(FabricRecipeProvider.hasItem(Blocks.WHITE_STAINED_GLASS), FabricRecipeProvider.conditionsFromItem(Blocks.WHITE_STAINED_GLASS)).offerTo(exporter, Identifier.of(GlassDelight.MOD_ID,"cutting/white_stained_glass_stairs"));
         StonecuttingRecipeJsonBuilder.createStonecutting(Ingredient.ofItems(Blocks.WHITE_STAINED_GLASS), RecipeCategory.BUILDING_BLOCKS, MapleBlocks.WHITE_STAINED_GLASS_SLAB, 2) .criterion(FabricRecipeProvider.hasItem(Blocks.WHITE_STAINED_GLASS), FabricRecipeProvider.conditionsFromItem(Blocks.WHITE_STAINED_GLASS)).offerTo(exporter, Identifier.of(GlassDelight.MOD_ID, "cutting/white_stained_glass_slab"));
         StonecuttingRecipeJsonBuilder.createStonecutting(Ingredient.ofItems(Blocks.WHITE_STAINED_GLASS), RecipeCategory.BUILDING_BLOCKS, MapleBlocks.WHITE_STAINED_GLASS_WALL, 1) .criterion(FabricRecipeProvider.hasItem(Blocks.WHITE_STAINED_GLASS), FabricRecipeProvider.conditionsFromItem(Blocks.WHITE_STAINED_GLASS)).offerTo(exporter, Identifier.of(GlassDelight.MOD_ID, "cutting/white_stained_glass_wall"));
         StonecuttingRecipeJsonBuilder.createStonecutting(Ingredient.ofItems(Blocks.WHITE_STAINED_GLASS), RecipeCategory.BUILDING_BLOCKS, MapleBlocks.WHITE_STAINED_GLASS_PRESSURE_PLATE, 2) .criterion(FabricRecipeProvider.hasItem(Blocks.WHITE_STAINED_GLASS), FabricRecipeProvider.conditionsFromItem(Blocks.WHITE_STAINED_GLASS)).offerTo(exporter, Identifier.of(GlassDelight.MOD_ID, "cutting/white_stained_glass_pressure_plate"));

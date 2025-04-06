@@ -1,8 +1,6 @@
 package com.skniro.glass_delight.entity.custom;
 
-import com.skniro.glass_delight.block.MapleBlocks;
 import com.skniro.glass_delight.entity.MapleEntityType;
-import com.skniro.glass_delight.item.MapleItems;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.syncher.EntityDataAccessor;
 import net.minecraft.network.syncher.EntityDataSerializers;
@@ -11,9 +9,9 @@ import net.minecraft.util.ByIdMap;
 import net.minecraft.util.StringRepresentable;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.vehicle.Boat;
-import net.minecraft.world.item.Item;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 
 import java.util.function.IntFunction;
 public class MapleBoatEntity extends Boat {
@@ -28,13 +26,13 @@ public class MapleBoatEntity extends Boat {
         this.yo = pY;
         this.zo = pZ;
     }
-    @Override
+/*    @Override
     public Item getDropItem() {
         return switch (getMapleVariant()) {
             case MAPLE -> MapleItems.MAPLE_BOAT.get();
             case GINKGO -> MapleItems.GINKGO_BOAT.get();
         };
-    }
+    }*/
     public void setVariant(Type pVariant) {
         this.entityData.set(DATA_ID_TYPE, pVariant.ordinal());
     }
@@ -55,8 +53,8 @@ public class MapleBoatEntity extends Boat {
         }
     }
     public static enum Type implements StringRepresentable {
-        MAPLE(MapleBlocks.MAPLE_PLANKS.get(), "maple"),
-        GINKGO(MapleBlocks.GINKGO_PLANKS.get(), "ginkgo");
+        MAPLE(Blocks.OAK_PLANKS, "maple"),
+        GINKGO(Blocks.OAK_PLANKS, "ginkgo");
         private final String name;
         private final Block planks;
         public static final EnumCodec<Type> CODEC = StringRepresentable.fromEnum(Type::values);

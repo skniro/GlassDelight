@@ -30,6 +30,7 @@ public class MapleItemTagGeneration extends FabricTagProvider<Item> {
     @Override
     protected void configure(RegistryWrapper.WrapperLookup arg) {
         getOrCreateTagBuilder(FENCES)
+                .add(Item.fromBlock(MapleBlocks.GLASS_FENCE))
                 .add(Item.fromBlock(MapleBlocks.WHITE_STAINED_GLASS_FENCE))
                 .add(Item.fromBlock(MapleBlocks.ORANGE_STAINED_GLASS_FENCE))
                 .add(Item.fromBlock(MapleBlocks.MAGENTA_STAINED_GLASS_FENCE))
